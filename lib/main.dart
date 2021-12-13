@@ -20,7 +20,6 @@ class XilofonePage extends StatelessWidget {
     {'cor': Colors.purple, 'som': 'note7.wav'},
   ];
   Expanded criaBotao(Color cor, String som) {
-    print(som);
     return Expanded(
       child: TextButton(
         style: TextButton.styleFrom(
